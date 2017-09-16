@@ -1,0 +1,52 @@
+//: Playground - noun: a place where people can play
+
+import UIKit
+
+var str = "Hello, Pioneras"
+
+print("\(str) estoy muy feliz de estar aqui")
+
+print(2+100)
+5*2
+10/2
+"Camila" + "Gomez"
+
+
+let nombre : String = "Maria Camila"
+var edad : Int = 22
+var 😃 : String = "Contenta"
+
+var bandera : Bool = true
+
+(1, "pera") < (2, "manzana") // verdadero porque 1 es menor que 2
+(3, "gato") < (3, "perro") // verdadero porque gato es menor que perro
+(5, "dormir") == (5, "dormir") // Ambos son iguales
+
+if bandera {
+    print("Mi nombre es \(nombre), tengo \(edad) años y estoy muy \(😃) de estar aqui")
+}else{
+    print("Esta condición es falsa")
+}
+
+var pioneras = ["Mileidy", "Marian", "Ana", "Melina", "Manuela"]
+
+
+for pionera in pioneras {
+    print("Hola \(pionera)")
+}
+
+for i in 1...5 {
+    print("Indice \(i)")
+}
+
+func sumar(x : Int, y : Int) -> Int{
+    return x+y
+}
+
+print(sumar(x:2,y:5))
+
+
+var diccionario = ["edad": "22", "apodo": "minion"]
+
+
+print(diccionario["apodo"]!)
